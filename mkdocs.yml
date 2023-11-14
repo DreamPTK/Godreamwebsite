@@ -1,0 +1,64 @@
+site_name: Godream
+site_url: https://dreamptk.github.io/Godreamweb/
+
+# Repository
+repo_name: dreamptk/Godream
+repo_url: https://github.com/dreamptk/Godream
+
+theme:
+  name: material
+  logo: img/GOD1.svg
+  favicon: img/GOD1.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: indigo
+      accent: indigo
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: indigo
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DreamPTK
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/Godream/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/pathakorn-usaha-114283244/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/DreamPTK"  target="_blank" rel="noopener">DreamPTK</a>
