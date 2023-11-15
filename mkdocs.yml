@@ -1,9 +1,22 @@
 site_name: Godream
 site_url: https://dreamptk.github.io/Godreamwebsite/
-#
+
 # Repository
 repo_name: dreamptk/Godream
 repo_url: https://github.com/dreamptk/Godream
+
+nav:
+  - Get started: 'get_started.md'
+  - Interactive map: "Interactive_map.md"
+  - Plot Raster: "Openras.md"
+  - Geoprocessing: "geoprecessing.md"
+  - Stacking: "bands_stack.md"
+  - Band Indices: "band_indices.md"
+  - Band Analyze: "bandanalyze.md"
+  - Conversion: "convertool.md"
+  - Extract by point: "Extract_data.md"
+  - ML: "ML.md"
+  - Rice Detect: "rice_model.md"
 
 theme:
   name: material

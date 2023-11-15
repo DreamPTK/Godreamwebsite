@@ -1,6 +1,15 @@
 # Get Started
 
-Godream (Geo-dream) is a library that contain geospatial tools for RS&GIS analyse in python language. This appears to be a Python library specifically developed to assist in the analysis of geospatial data, with a focus on remote sensing and GIS applications. Such a library would likely provide functions and tools to manipulate, process, and visualize geospatial data, making it easier for users to perform complex analyses in these domains [pypi.org](https://pypi.org/project/Godream/).
+## Godream (Geo-dream)
+Godream (Geo-dream) is a library that contain geospatial tools for RS&GIS analyze or geospatial analyze in python language. This appears to be a Python library specifically developed to assist in the analysis of geospatial data, with a focus on remote sensing and GIS applications. Such a library would likely provide functions and tools to manipulate, process, and visualize geospatial data, making it easier for users to perform complex analyses in these domains [pypi.org](https://pypi.org/project/Godream/).
+
+[(How to create new environment)](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
+
+
+## Activate your environment 
+
+    conda activate 'your environment'
+
 
 ## Installation
 
@@ -9,7 +18,6 @@ Godream (Geo-dream) is a library that contain geospatial tools for RS&GIS analys
 
 ## Launch Jupyter notebook
 
-    conda activate 'your environment'
     jupyter notebook
 
 

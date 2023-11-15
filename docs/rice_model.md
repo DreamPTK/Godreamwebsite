@@ -51,6 +51,7 @@ output_tiff = 'classified.tiff'
 ```
 
 #### SAR rice model
+This model uses time series data of SAR VH polarization to run the model. Thus, input data should be stack 19 images of SAR VH polarization images.
 
 ```python
 riceBySar(raster_stack, output_tiff, figsize = (12, 7), num_estimator = 100 )
