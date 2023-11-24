@@ -32,6 +32,7 @@ overlay_map( filev, filer, with_draw_tools=True,zoom=None )
 
 #### Optical rice model
 
+Raster images should have 4 bands that compose of red, green, blue and nir bands respectively.
 
 ```python
 riceByOptical(raster_img, output_tiff, figsize = (12, 7), num_estimator = 100)
