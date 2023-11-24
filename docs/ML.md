@@ -448,7 +448,6 @@ predicted = predict_xray(rf_model, input_xr=ds, clean=True)
 
 ### Plot classified ouput
 
-Note that: the output will be upside down when export, You can flip it in ArcMap software.
 
 
 ```python
@@ -460,9 +459,6 @@ predicted.Predictions.plot(ax=axes,
                cmap='Greens', 
                add_labels=False, 
                add_colorbar=False)
-
-# Reverse the Y-axis to match your desired orientation
-axes.invert_yaxis()
 
 # Add a plot title
 axes.set_title('Classified Data')
