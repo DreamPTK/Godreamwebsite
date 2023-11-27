@@ -11,7 +11,7 @@ from Godream.model import riceByOptical, riceBySar
 
 ### For Optical image
 
-You band to set the order of bands like this: 
+Your sateelite image bands have to set the order of bands like this: 
 
 `band_1` as red band
 
