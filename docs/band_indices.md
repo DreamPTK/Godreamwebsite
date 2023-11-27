@@ -61,6 +61,9 @@ ndvi
 
 
 ```python
+# open file
+ds=rasterio.open(out_name)
+
 # plot image
 plot_raster(ds, cmap='RdYlGn', title="NDVI Map", adjust=True, figsize=(12,6), gamma=0.8)
 ```
