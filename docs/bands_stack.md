@@ -75,7 +75,7 @@ Open in  "overlay_map" but need to change CRS to EPSG:4326
 
 
 ```python
-from plotimg import overlay_map, show_map
+from Godream.plotimg import overlay_map, show_map
 ```
 
 
