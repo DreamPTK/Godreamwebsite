@@ -11,6 +11,16 @@ from Godream.model import riceByOptical, riceBySar
 
 ### For Optical image
 
+You band to set the order of bands like this: 
+
+`band_1` as red band
+
+`band_2` as green band
+
+`band_3` as blue band
+
+`band_4` as nir band
+
 ```python
 #set input
 trainset = 'data/trainset_DN.geojson'
