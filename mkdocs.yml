@@ -17,6 +17,7 @@ nav:
   - Conversion: "convertool.md"
   - Extract by point: "Extract_data.md"
   - ML: "ML.md"
+  - Vectorize: "Vectorize.md"
   - Rice Detect: "rice_model.md"
 
 theme:
