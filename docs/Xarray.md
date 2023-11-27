@@ -79,6 +79,4 @@ print(ds.crs)
     
 
 
-```python
 
-```
