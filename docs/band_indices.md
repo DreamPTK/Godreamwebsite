@@ -18,20 +18,23 @@ from Godream.plotimg import plot_raster
 
 ```python
 # input
-file_name = "D:\DGEO\data\S2_image3.tif"
+file_name = "D:/DGEO/data/Landsat8_allB4326.tif"
 
 #output
-out_name = "D:\DGEO\data\S2_image_ndvi.tif"
+out_name = "D:/DGEO/data/Landsat8_allB4326_ndvi.tif"
 ```
 
 ### Calculate index
 
 This case study select NDVI to represent how to use the tool to create band index.
 
+For `sentinel2` [band2: Blue, band3: Green, band4: Red, band8: nir, band11:swir] 
+
+For `landsat8` [band2: Blue, band3: Green, band4: Red, band5: nir, band6:swir] 
 
 ```python
 # use function to calculate index
-ndvi = cal_indinces(tiff_path=file_name, index='NDVI', output_path=out_name)
+ndvi = cal_indinces(tiff_path=file_name, index='NDVI', output_path=out_name, satellite = 'landsat8')
 
 # see output
 ndvi
