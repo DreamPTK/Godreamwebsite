@@ -11,7 +11,7 @@ Require to install GDAL (choose for Python 3.9) ⚠️
 
 [How to install with Wheel file(.whl)](https://www.educative.io/answers/how-to-install-a-python-package-with-a-whl-file)
 
-[Download GDAL from Wheel](https://github.com/DreamPTK/rice-detection/tree/main/dream_river/gdal_lib)
+[Download GDAL from Wheel](https://github.com/DreamPTK/ThTaxSigns/tree/main/GDAL_wheel)
 
 
 ## Activate your environment 
