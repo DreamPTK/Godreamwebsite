@@ -5,11 +5,13 @@ Godream (Geo-dream) is a library that contain geospatial tools for RS&GIS analyz
 
 [(How to create new environment)](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands)
 
-Require Python version 3.9
+Require Python version 3.9 ⚠️
 
-Require to install GDAL (choose for Python 3.9)
+Require to install GDAL (choose for Python 3.9) ⚠️
 
-[(Download Gdal from Wheel)](https://github.com/DreamPTK/rice-detection/tree/main/dream_river/gdal_lib)
+[How to install with Wheel file(.whl)](https://www.educative.io/answers/how-to-install-a-python-package-with-a-whl-file)
+
+[Download GDAL from Wheel](https://github.com/DreamPTK/rice-detection/tree/main/dream_river/gdal_lib)
 
 
 ## Activate your environment 
