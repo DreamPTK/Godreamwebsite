@@ -7,11 +7,11 @@ Godream (Geo-dream) is a library that contain geospatial tools for RS&GIS analyz
 
 Require Python version 3.9 ⚠️
 
-Require to install GDAL (choose for Python 3.9) ⚠️
+Require to install GDAL  ⚠️
 
-[How to install with Wheel file(.whl)](https://www.educative.io/answers/how-to-install-a-python-package-with-a-whl-file)
+[How to install GDAL with Wheel file(.whl)](https://www.educative.io/answers/how-to-install-a-python-package-with-a-whl-file)
 
-[Download GDAL from Wheel](https://github.com/DreamPTK/ThTaxSigns/tree/main/GDAL_wheel)
+[Download GDAL Wheel file](https://github.com/DreamPTK/ThTaxSigns/tree/main/GDAL_wheel)  for Python 3.9 (eg. GDAL-3.3.3-cp39-cp39-win_amd64.whl)
 
 
 ## Activate your environment 
