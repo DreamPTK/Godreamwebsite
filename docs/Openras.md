@@ -185,7 +185,7 @@ filer = [input_path,output_path]
 
 
 ```python
-overlay_map( filev, filer, with_draw_tools=True, zoom=None, , opacity = 1.0)
+overlay_map( filev, filer, with_draw_tools=True, zoom=None, opacity = 1.0)
 ```
 
 ![123](img/plotras1.png)
