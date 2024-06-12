@@ -131,12 +131,15 @@ plot_hist(ds, bins=10, title='Histogram')
 
 ### Plot Multi-bands
 
+- bands : sequence of image bands (R,G,B), defualt is [3, 2, 1].
+
+- brightness : The brightness of image, defualt is 0.85.
 
 ```python
 from Godream.plotimg import plot_multibands
 
 raster_file = "D:\DGEO\data\S2_image3.tif"
-plot_multibands(raster_file)
+plot_multibands(raster_file, bands =[3,2,1], brightness=0.90)
 ```
 
 ![123](img/openras4.png)
